@@ -1,5 +1,40 @@
-*{
-    color: #fffff000
-    color(rgb(234, 100%, 50%) green blue)
-    color(hsla red255 green blue)
-}
+        h2{
+            text-decoration-line: overline;
+        }
+        h3{
+            text-decoration-line: underline ;
+            text-decoration-color: blue;
+            text-decoration-thickness: 6px;
+            text-decoration-style: dashed;
+        }
+        h4{
+            text-decoration: underline wavy red 3px;
+        }
+        
+        
+        /*.p1{
+            color: blue;
+            font-family: 'Lucida handwriting',cursive;
+            font:italic small-caps bold 23px/1.3 fantasy;
+            direction: ltr;
+        }
+        .p2{
+            color: blueviolet;
+            font-family: 'papyrus',fantasy;
+            font:oblique small-caps 700 30px/2.1 cursive; 
+            direction: rtl;
+        }*/
+        .p3{
+            color: brown;
+            font-family: Verdana, sans-serif;
+            text-indent: 20px;
+            word-spacing: 15px;
+            letter-spacing: 10px;
+            white-space: nowrap;
+            line-height: 10px;
+            
+        }
+        p{
+            vertical-align: sub;
+            text-transform: capitalize;
+        }
