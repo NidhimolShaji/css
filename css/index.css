@@ -1,3 +1,10 @@
+        h1{
+            color: brown;
+            font:papyrus status-bar bold 20px fantasy;
+            direction: ltr;
+            text-decoration: underline  crimson 12px;
+        }
+        
         h2{
             text-decoration-line: overline;
         }
@@ -9,6 +16,11 @@
         }
         h4{
             text-decoration: underline wavy red 3px;
+        }
+        h5{
+            font:oblique small-caps bold 20px/1.2 cursive;
+            direction: ltr;
+            text-decoration:line-through dotted coral 5px;
         }
         
         
