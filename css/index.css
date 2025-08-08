@@ -1,8 +1,8 @@
         h1{
             color: brown;
-            font:papyrus status-bar bold 20px fantasy;
+            font:papyrus status-bar bold 12px fantasy;
             direction: ltr;
-            text-decoration: underline  crimson 12px;
+            text-decoration: underline  crimson 1mm;
         }
         
         h2{
@@ -49,4 +49,9 @@
         p{
             vertical-align: sub;
             text-transform: capitalize;
+        }
+        .para{
+            max-width: 80%;
+            max-height: 20%;
+            background-color: yellowgreen;
         }
