@@ -19,7 +19,8 @@
     background: chartreuse url(download.png) no-repeat center local;
 }
 h1{
-    text-shadow:5px 5px 1px crimson
+    /*text-shadow:5px 5px 1px crimson;*/
+    opacity:0.5;
 }
 .circle{
     height: 250px;
@@ -27,5 +28,60 @@ h1{
     border-radius: 50%;
     background-color: blue;
     box-shadow: 10px 5px 4px coral;
+    
+}
+button{
+    
+    color: aqua;
+    
+}
+button:hover{
+    color: brown;
+}
+button:active{
+    color: blueviolet;
+}
+a:active{
+    color:rgb(218, 218, 28);
+   
+}
+a:visited{
+    color:chartreuse;
+}
+a:link{
+    color: cyan;
+}
+/*li:first-child{
+    color: blue;
+}
+li:last-child{
+    color:red;
+}*/
+li:nth-child(odd){
+    color: brown;
+}
+input{
+    color: blue;
+    size: 20px;
+    padding: 12px;
+    border: 5px solid crimson;
+}
+input:disabled{
+    background-color: blue;
+    color:yellow;
+    border-color: black;
+}
+p:not(.unique){
+    margin: 15px;
+    color: red;
+    width: 40%;
+    text-align:justify;
+}
+label::after{
+    content: '*';
+    color: blueviolet;
+}
+label::before{
+    content: url(/css/download.png);
     
 }
