@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    /*width: 600px;
+    height:500px;
+    padding: 12px;
+    border:5px dashed black;
+    background-color: aqua;
+    background-image:url("download.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-clip:border-box;
+    background-origin:padding-box;
+    overflow-x:scroll;
+    background-attachment:fixed;
+    background-size:cover-left;*/
+    background: chartreuse url(download.png) no-repeat center local;
+}
+h1{
+    text-shadow:5px 5px 1px crimson
+}
+.circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: blue;
+    box-shadow: 10px 5px 4px coral;
+    
+}
