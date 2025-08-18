@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 80vh;
+    width:100%;
+    display:flex;
+    gap:10px;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: row-reverse;
+    flex-wrap:wrap-reverse;
+    flex-flow: row wrap;
+}
+.child{
+    height: 300px;
+    width: 300px;
+    background-color:aqua ;
+}
+.one{
+    background-color: blue;
+}
+.two{
+    background-color: brown;
+}
+.three{
+    background-color: blueviolet;
+    flex-shrink: 1;
+}
+.four{
+    background-color: cadetblue;
+}
+.five{
+    background-color:black;
+}
