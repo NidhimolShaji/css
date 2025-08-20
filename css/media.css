@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    color: brown;
+    display: flex;
+    justify-content:space-around;
+    }
+ul{
+    list-style-type:none ;
+    display:flex;
+    gap:5px;
+}
+
+.container{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(2,200px);
+    place-content: center;
+    place-items: center;
+    gap:10px;
+   
+}
+.child{
+   height: 100px;
+   width: 200px;
+   background-color:black;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color:black;
+   
+}
+.three{
+    background-color: red;
+    
+
+}
+.four{
+    background-color: red;
+}
+.five{
+    background-color:black;
+}
+.six{
+    background-color: red;
+}
+.seven{
+    background-color: black;
+}
+.eight{
+    background-color: black;
+    
+}
+.nine{
+    background-color: red;
+}
+.ten{
+    background-color:black;
+}
+.eleven{
+    background-color:red; 
+}
+
+@media (min-width:400.5px) and (max-width:600px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,200px);
+    }
+}
+/*@media screen and (max-width:400px){
+    .container{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(10,200px);
+    }
+}*/
+@media (min-width:100.5px)and(max-width:200px){
+    ul{
+        display: none;
+    }
+}
+

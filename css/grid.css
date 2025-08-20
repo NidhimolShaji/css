@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    height: 80vh;
+    width:100%;
+    display:grid;
+    grid-template-columns: 100px 150px 100px 150px;
+    /*grid-template-rows: 100px 150px 100px;*/
+   
+    gap:10px;
+   
+}
+.child{
+   height: 100px;
+    width: 100px;
+    background-color:black;
+}
+.one{
+    background-color: red;
+}
+.two{
+    background-color:black;
+   
+}
+.three{
+    background-color: red;
+    place-self:center;
+
+}
+.four{
+    background-color: red;
+}
+.five{
+    background-color:black;
+}
+.six{
+    background-color: red;
+}
+.seven{
+    background-color: black;
+}
+.eight{
+    background-color: black;
+    
+}
+.nine{
+    background-color: red;
+}
+.ten{
+    background-color:black;
+}
+.eleven{
+    background-color:red; 
+}
+
