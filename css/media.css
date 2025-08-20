@@ -12,21 +12,25 @@ ul{
     display:flex;
     gap:5px;
 }
+img{
+    height: auto;
+    width: auto;
+}
 
 .container{
     width:100%;
     display:grid;
     grid-template-columns: repeat(5, 250px);
-    grid-template-rows: repeat(2,200px);
+    grid-template-rows: repeat(2,250px);
     place-content: center;
     place-items: center;
-    gap:10px;
+    
    
 }
 .child{
-   height: 100px;
-   width: 200px;
-   background-color:black;
+   height: 300px;
+   width: 300px;
+   background-color:purple;
 }
 .one{
     background-color: red;
@@ -36,40 +40,40 @@ ul{
    
 }
 .three{
-    background-color: red;
+    background-color: gray;
     
 
 }
 .four{
-    background-color: red;
+    background-color: green;
 }
 .five{
-    background-color:black;
+    background-color:aqua;
 }
 .six{
-    background-color: red;
+    background-color:yellow;
 }
 .seven{
-    background-color: black;
+    background-color:violet;
 }
 .eight{
-    background-color: black;
+    background-color: blue;
     
 }
 .nine{
-    background-color: red;
+    background-color: saddlebrown;
 }
 .ten{
-    background-color:black;
+    background-color:white;
 }
 .eleven{
-    background-color:red; 
+    background-color:orange; 
 }
 
-@media (min-width:400.5px) and (max-width:600px){
+/*@media (min-width:400.5px) and (max-width:600px){
     .container{
         grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(5,200px);
+        grid-template-rows: repeat(2,1fr);
     }
 }
 /*@media screen and (max-width:400px){
@@ -77,10 +81,27 @@ ul{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(10,200px);
     }
-}*/
-@media (min-width:100.5px)and(max-width:200px){
-    ul{
+}
+@media (min-width:200.5px) and (max-width:500px){
+    nav ul{
         display: none;
     }
 }
 
+@media (min-width:200.5px) and (max-width:500px){
+  nav img{
+    display: inline-block;
+}
+}
+/*@media (min-width:500.5px) and (max-width:2050px){
+  nav img{
+    display: none;
+}
+}*/
+.container {
+    grid-row:3/5;
+    
+    background-color: chartreuse;
+    grid-column:1/2;
+    
+}
