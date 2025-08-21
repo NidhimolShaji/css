@@ -3,21 +3,25 @@
     padding: 0;
 }
 body{
-    height: 80vh;
+    height: 500px;
     width: 500px;
-    align-content: center;
+    align-items: center;
     justify-content: center;
+    display: flex;
     
 
 }
 .square{
+    border: 2px solid red;
     align-content: center;
-    height: 100PX;
-    width: 100PX;
+    height: 30%;
+    width: 30%;
     background-color:blue;
-    padding-left: 100px;
+    
+    
+    transition:all 1s ease 1s;
 }
 .square:hover{
-    transform: rotateY(45deg);
-
+    transform: rotate(90deg);
+    
 }
